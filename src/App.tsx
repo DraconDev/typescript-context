@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { AppContext } from "./context/AppContext";
+import Header from "./components/Header";
 
 const App = () => {
 	return (
@@ -12,8 +12,8 @@ const App = () => {
 				theme: "light",
 			}}
 		>
-			{/* <Header /> */}
-			<h1>test</h1>
+			<Header />
+			{/* <h1>test</h1> */}
 		</AppContext.Provider>
 	);
 };

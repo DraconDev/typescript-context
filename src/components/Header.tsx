@@ -1,6 +1,8 @@
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "./../context/AppContext";
+import React from "react";
 
-const Header = () => {
+const Header = (props: any) => {
+	// console.log("props", props);
 	return (
 		<AppContext.Consumer>
 			{({ authenticated }) => {
@@ -12,3 +14,5 @@ const Header = () => {
 		</AppContext.Consumer>
 	);
 };
+
+export default Header;
