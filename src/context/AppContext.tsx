@@ -1,6 +1,19 @@
 import React from "react";
 
-//? Specific
+// //?  Specific w separate types
+// interface AppContextProps {
+// 	authenticated: boolean;
+// 	lang: string;
+// 	theme: string;
+// }
+
+// export const AppContext = React.createContext({
+// 	authenticated,
+// 	lang,
+// 	theme,
+// }: AppContextProps);
+
+// //? Specific
 // export const AppContext = React.createContext({
 // 	authenticated: true,
 // 	lang: "en",
